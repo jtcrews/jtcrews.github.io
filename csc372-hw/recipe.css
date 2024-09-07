@@ -1,0 +1,46 @@
+h1,
+h2 {
+    display: inline-block;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18pt;
+    font-style: normal;
+}
+
+body {
+    background-image: url('silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #404040;
+    font-family: Georgia, Garamond;
+}
+
+.emphasized-step {
+    font-weight: bold;
+}
+
+a {
+    color: #A4A400;
+}
+
+#comments {
+    background-color: #FFFFA8;
+    margin: 15pt;
+    font-style: italic;
+}
+
+.copyright {
+    text-align: right;
+    width: 230pt;
+}
