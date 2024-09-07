@@ -1,6 +1,4 @@
-h1,
-h2 {
-    display: inline-block;
+h1, h2 {
     color: #A4A400;
     background-color: #F0F0F0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,4 +41,8 @@ a {
 .copyright {
     text-align: right;
     width: 230pt;
+}
+
+ul {
+    list-style: url("pie_icon.gif");
 }
