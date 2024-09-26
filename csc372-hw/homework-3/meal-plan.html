@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Meal Plan Creator</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meal-plan.html">Meal Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dish-list">
+            <h2>Recommended Dishes</h2>
+            <ul>
+                <li>Fried Rice - $<span class="cost">5.99</span> <button class="add-btn">Add</button></li>
+                <li>Orange Chicken - $<span class="cost">6.99</span> <button class="add-btn">Add</button></li>
+                <li>Honey Walnut Shrimp - $<span class="cost">7.99</span> <button class="add-btn">Add</button></li>
+                <li>Waffle Fries - $<span class="cost">2.99</span> <button class="add-btn">Add</button></li>
+                <li>Honey Pepper Pmento Sandwhich - $<span class="cost">4.99</span> <button class="add-btn">Add</button></li>
+                <li>Medium BBQ Chicken Pizza - $<span class="cost">19.99</span> <button class="add-btn">Add</button></li>
+                <li>6 piece Garlic Knots - $<span class="cost">5.99</span> <button class="add-btn">Add</button></li>
+            </ul>
+        </section>
+
+        <section id="meal-plan">
+            <h2>Your Meal Plan</h2>
+            <ul id="meal-plan-list">
+                <!-- Meal plan items will be dynamically added here -->
+            </ul>
+            <p>Total: $<span id="total-cost">0.00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
