@@ -1,0 +1,56 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.computer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.outcome {
+    display: flex;
+    justify-content: space-around;
+    border: solid black 2px;
+    margin: 25px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+img {
+    height: 200px;
+    width: 130px;
+    margin: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.selected {
+    border: 3px solid blue;
+}
